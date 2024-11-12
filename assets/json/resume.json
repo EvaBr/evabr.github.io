@@ -16,6 +16,10 @@
         "network": "LinkedIn",
         "url": "https://www.linkedin.com/in/eva-breznik-140b38a8/"
       }
+      {
+        "network": "GitHub",
+        "url": "https://github.com/EvaBr"
+      }
     ]
   },
   "work": [
@@ -26,18 +30,6 @@
       "endDate": "2025-12-31",
       "summary": "Research in medical image analysis for cardiovascular diseases and COPD.",
       "highlights": ["CT", "COPD", "Aterosclerosis", "aortic valve calcification", "segmentation", "deep learning", "topology"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
   "education": [
@@ -54,7 +46,7 @@
     {
       "institution": "Technical university Munich",
       "location": "Munchen, Germany",
-      "url": "https://www.uzh.ch/",
+      "url": "https://www.tum.de/",
       "area": "Computational science and engineering",
       "studyType": "MSc",
       "startDate": "2014-10",
@@ -65,7 +57,7 @@
     {
       "institution": "University of Ljubljana, Faculty of mathematics and physics",
       "location": "Ljubljana, Slovenia",
-      "url": "https://www.uzh.ch/",
+      "url": "https://www.fmf.uni-lj.si/",
       "area": "Mathematics",
       "studyType": "BSc",
       "startDate": "2010-10",
@@ -83,56 +75,18 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Statistical Analysis of fMRI Data",
+      "date": "2015-03",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/course/fmri",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Introduction to Data science",
+      "date": "2017-02",
+      "issuer": "Uppsala University",
+      "url": "http://www.lamastex.org/certificates/2017/sds-2-2-2017_EvaBreznik.pdf",
       "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
     }
   ],
   "languages": [
@@ -148,32 +102,53 @@
     },
     {
       "language": "Swedish",
-      "fluency": "Fluent",
+      "fluency": "Intermediate",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Mathematics, IT and (bio)medicine",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Functional analysis",
+        "Topology",
+        "Data science",
+	"Image processing",
+	"Biomedical imaging",
+	"Machine learning",
+	"Deep learning"
       ]
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Automatic quantification of aortic valve calcifications",
+      "summary": "TODO.",
+      "highlights": ["Computed tomography", "Agatston grading", "Aortic valve", "Deep learning"],
+      "startDate": "2024-12",
+      "endDate": "2025-12",
+      "collaborators": "Bahira Shahim and Kari Feldt, Karolinska Sjukhuset Solna",
+      "url": "https://example"
+    }
+    {
+      "name": "Modelling of blood flow in the coronary arteries",
+      "summary": "TODO.",
+      "highlights": ["Computed tomography", "Coronary arteries", "Vessel lumen segmentation", "Deep learning", "Computational fluid dynamics"],
+      "startDate": "2023-11",
+      "endDate": "2026-12",
+      "collaborators": "Lisa Prahl and Imane El Jirari, Biomechanics, KTH. (add link)",
+      "url": "https://example"
+    }
+  ],
+  "past_projects": [
+    {
+     "name": "Statistical analysis of whole body MRI in Imiomics",
+     "summary": "TODO."
+    }
+    {
+     "name": "Boundary loss for weakly supervised segmentation",
+     "summary": "TODO."
     }
   ]
 }
