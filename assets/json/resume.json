@@ -15,7 +15,7 @@
       {
         "network": "LinkedIn",
         "url": "https://www.linkedin.com/in/eva-breznik-140b38a8/"
-      }
+      },
       {
         "network": "GitHub",
         "url": "https://github.com/EvaBr"
@@ -130,7 +130,7 @@
       "endDate": "2025-12",
       "collaborators": "Bahira Shahim and Kari Feldt, Karolinska Sjukhuset Solna",
       "url": "https://example"
-    }
+    },
     {
       "name": "Modelling of blood flow in the coronary arteries",
       "summary": "TODO.",
@@ -145,7 +145,7 @@
     {
      "name": "Statistical analysis of whole body MRI in Imiomics",
      "summary": "TODO."
-    }
+    },
     {
      "name": "Boundary loss for weakly supervised segmentation",
      "summary": "TODO."
